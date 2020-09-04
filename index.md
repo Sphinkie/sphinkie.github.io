@@ -2,8 +2,11 @@
 
 ## Software for Windows
 
-![SOAP Message Viewer](https://github.com/Sphinkie/SOAP-Message-Viewer/blob/master/docs/images/Capture.png)
-<img src="https://sphinkie.github.io/RegFineViewer/images/RegFineViewer_1.png" alt="Screenshot" style="zoom:50%;" />
+
+SOAP Message Viewer | Registry Fine Viewer
+--------------------|--------------------
+![SOAP Message Viewer](https://github.com/Sphinkie/SOAP-Message-Viewer/blob/master/docs/images/Capture.png) | ![Registry Fine Viewer](https://sphinkie.github.io/RegFineViewer/images/RegFineViewer_1.png)
+SOAP Message Viewer is an utility that displays the content of the messages of a SOAP trace record (ie: of a web_messages.svclog file). | RegFineViewer is an utility to visualize and navigate easily the Windows Registry. 
 
 ## Android application
 
@@ -13,4 +16,5 @@
 These repositories are private.
 
 ## Steampunk Robotic !
+
 
