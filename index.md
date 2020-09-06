@@ -1,8 +1,3 @@
-## Contributions to open-source projects
-
-**[Geometrik](https://sphinkie.github.io/Geomerik)**  
-A graphic library for the open-source game engine **ogre3D**.
-
 
 ## Android application
 
