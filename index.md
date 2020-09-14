@@ -2,9 +2,6 @@
 ## Android application
 
 
-## Professional utilities
-
-These repositories are private.
 
 ## Steampunk Robotics !
 

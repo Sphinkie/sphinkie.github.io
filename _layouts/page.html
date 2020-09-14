@@ -1,27 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
 	<head>
-		<meta charset='utf-8'>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width,maximum-scale=2">
-		<link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<meta charset='utf-8'/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width,maximum-scale=2" />
+		<link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
 		{% seo %}
 	</head>
 
 	<body>
 		<!-- HEADER -->
 		<div id="header_wrap" class="outer">
-		<header class="inner">
-			<a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-			<h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-			<h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-		</header>
+			<header class="inner">
+				<a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+				<h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+				<h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+			</header>
 		</div>
 
 		<!-- MAIN CONTENT -->
 		<div id="main_content_wrap" class="outer">
+
+			<!-- ******************************** -->
+			<!-- Section 1 : Software for Windows -->
+			<!-- ******************************** -->
 			<section class="inner">
 				<h2>Software for Windows</h2>
 				<table style="border:15px solid #f2f2f2;">
@@ -31,45 +34,66 @@
 							<th style="border:15px solid #f2f2f2;">Registry Fine Viewer</th>
 						</tr>
 					</thead>
-				<tbody>
-				<tr>
-				<td style="border:0px">
-					<a href="https://sphinkie.github.io/SOAP-Message-Viewer/" >
-						<img src="images/soapmessageviewer.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000; width:720; height:auto;">
-					</a>
-					<p>SOAP Message Viewer is an utility that displays the content of the messages of a SOAP trace record (ie: of a web_messages.svclog file).</p>
-					<a href="https://sphinkie.github.io/SOAP-Message-Viewer/" class="special">Learn more</a>
-				</td>
-				<td style="border:0px">
-					<a href="https://sphinkie.github.io/RegFineViewer/" class="image">
-						<img src="images/regfineviewer.png" alt=""  width="100%" style="border:0px; box-shadow:0px 0px 0px #000; width:720; height:auto;">
-					</a>
-					<p>RegFineViewer is an utility to visualize and navigate easily the Windows Registry.</p>
-					<a href="https://sphinkie.github.io/RegFineViewer/" class="special">Learn more</a>
-				</td>
-				</tr>				
-				</tbody>
+					<tbody>
+						<tr>
+							<td style="border:0px">
+								<a href="https://sphinkie.github.io/SOAP-Message-Viewer/" >
+									<img src="images/soapmessageviewer.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000; width:520; height:auto;" />
+								</a>
+								<p>SOAP Message Viewer is an utility that displays the content of the messages of a SOAP trace record (ie: of a web_messages.svclog file).</p>
+								<a href="https://sphinkie.github.io/SOAP-Message-Viewer/" class="special">Learn more</a>
+							</td>
+							<td style="border:0px">
+								<a href="https://sphinkie.github.io/RegFineViewer/" class="image">
+									<img src="images/regfineviewer.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000; width:520; height:auto;" />
+								</a>
+								<p>RegFineViewer is an utility to visualize and navigate easily the Windows Registry.</p>
+								<a href="https://sphinkie.github.io/RegFineViewer/" class="special">Learn more</a>
+							</td>
+						</tr>				
+					</tbody>
 				</table>
 			</section>
 
-		<!-- Section à fond noir -->
-		<section class="outer" id="header_wrap">
-			<p id="project_title" style="text-align:right;">Contributions for large open-source projects</p>
-			<div class="inner">
-			<a href="https://sphinkie.github.io/Geometrik/" >
-				<p id="project_tagline"><b>Geometrik:</b><br/>A graphic library for the open-source game engine <b>ogre3D</b></p>
-				<div> <!--c-img-inner-->
-				<img src="images/geometrik.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000">
+			<!-- ******************************** -->
+			<!-- Section 2 : Open-source - DARK   -->
+			<!-- ******************************** -->
+			<section class="outer" id="header_wrap">
+				<p id="project_title" style="text-align:right;">Contributions for large open-source projects</p>
+				<div class="inner">
+					<a href="https://sphinkie.github.io/Geometrik/" >
+						<p id="project_tagline">
+							<b>Geometrik:</b>
+							<br/>A graphic library for the open-source game engine <b>ogre3D</b>
+						</p>
+						<div>
+							<!--c-img-inner-->
+							<img src="images/geometrik.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000;" />
+						</div>
+					</a>
+					<div class="outer">
+						<!--c-img-outer-->
+						<img src="images/SG-w_transparency.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000;" />
+					</div>
+					<a href="https://sphinkie.github.io/StarGen-II/" >
+						<p id="project_tagline">StarGen-II:
+						<br/>A C++ library that generates realistics solar-systems based on physical rules 
+						and real astronomical data. It uses the <em>Celestia</em> database of 120.000 known stars, and algorithms of <em>Stargen</em> C-program.</p>
+					</a>
 				</div>
-			</a>
-			<img src="images/SG-w_transparency.png" alt="" style="border:0px; box-shadow:0px 0px 0px #000">
-			<a href="https://sphinkie.github.io/StarGen-II/" >
-				<b><p id="project_tagline">StarGen-II:</b> is a C++ library that generates realistics solar-systems based on physical rules 
-				and real astronomical data. It uses the <em>Celestia</em> database of 120.000 known stars, and algorithms of <em>Stargen</em> C-program.</p>
-			</a>
-			</div>
-		</section>
+			</section>
 
+			<!-- ******************************** -->
+			<!-- Section 2 : PROFESSIONAL         -->
+			<!-- ******************************** -->
+			<section id="main_content" class="inner">  
+				<p id="project_title" style="text-align:right;">Professional Utilities</p>
+				<p>These repositories are private</p>
+			</section>
+
+			<!-- ******************************** -->
+			<!-- Section : Fichier INEDX.MD       -->
+			<!-- ******************************** -->
 			<section id="main_content" class="inner">  
 			{{ content }}
 			</section>
@@ -80,21 +104,23 @@
 		<div id="footer_wrap" class="outer">
 			<footer class="inner">
 				{% if site.github.is_project_page %}
-				<p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+				<p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+				</p>
 				{% endif %}
-				<p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+				<p>Published with <a href="https://pages.github.com">GitHub Pages</a>
+				</p>
 			</footer>
 		</div>
 
 		{% if site.google_analytics %}
-			<script>
+		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 			ga('create', '{{ site.google_analytics }}', 'auto');
 			ga('send', 'pageview');
-			</script>
+		</script>
 		{% endif %}
 	</body>
 </html>
