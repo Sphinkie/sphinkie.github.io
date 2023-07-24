@@ -1,5 +1,5 @@
 ---
-title: TC CALCUL POLICY
+title: PRIVACY POLICY
 layout: template
 filename: conf_policy_tccalcul.md
 --- 
