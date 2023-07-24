@@ -5,7 +5,7 @@ filename: conf_policy_tccalcul.md
 --- 
 
 # TC Calcul
-## Politique de confidentialité et de protection des données personnelles</h2>
+## Politique de confidentialité et de protection des données personnelles
 
 **TC CALCUL ne collecte aucune donnée personnelle.**
 
@@ -17,6 +17,6 @@ Lorsque vous installez l'application, il ne vous est pas demandé de créer un c
 Lorsque vous utilisez TC CALCUL, nous n’avons accès à aucune information.
 Si vous désinstallez l’application, il ne restera plus trace de la moindre donnée personnelle. C’est comme si vous ne l’aviez jamais installée.
 
-[View on PlayStore](www.playstore.com)
+[View on PlayStore](https://play.google.com/store/apps/details?id=com.sphinkie.sgtcalcul)
 
 Maintained by [David de Lorenzo](http://www.de-lorenzo.fr)
